@@ -7,6 +7,8 @@
 [![Downloads](https://pepy.tech/badge/simple-pid)](https://pepy.tech/project/simple-pid)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+Copper280z fork - My intention is to provide a circuitpython compatible fork, along with some other changes
+
 A simple and easy to use PID controller in Python. If you want a PID controller without external dependencies that just works, this is for you! The PID was designed to be robust with help from [Brett Beauregards guide](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/).
 
 Usage is very simple:
