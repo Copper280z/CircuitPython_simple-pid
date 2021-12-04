@@ -22,7 +22,7 @@ try:
 except AttributeError:
     # time.monotonic() not available (using python < 3.3), fallback to time.time()
     _current_time = time.monotonic
-    print('time.monotonic_ns() not available, we must not be in circuitpython, reverting to normal')
+    print('time.monotonic_ns() not available, reverting to time.monotonic()')
 
 
 class PID(object):
