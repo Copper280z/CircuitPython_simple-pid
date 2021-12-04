@@ -1,10 +1,7 @@
 # simple-pid
 
-[![Travis](https://travis-ci.com/m-lundberg/simple-pid.svg?branch=master)](https://travis-ci.com/m-lundberg/simple-pid)
-[![PyPI](https://img.shields.io/pypi/v/simple-pid.svg)](https://pypi.org/project/simple-pid/)
 [![Read the Docs](https://img.shields.io/readthedocs/simple-pid.svg)](https://simple-pid.readthedocs.io/)
 [![License](https://img.shields.io/github/license/m-lundberg/simple-pid.svg)](https://github.com/m-lundberg/simple-pid/blob/master/LICENSE.md)
-[![Downloads](https://pepy.tech/badge/simple-pid)](https://pepy.tech/project/simple-pid)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 Copper280z fork - My intention is to provide a circuitpython compatible fork, along with some other changes. I make no gurantee that this fork will track the original whatsoever.
