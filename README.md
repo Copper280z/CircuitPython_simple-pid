@@ -9,10 +9,10 @@ Copper280z comments - My intention is to provide a circuitpython compatible fork
 Relevant files are in the circuitpy folder.
 
 The current changes made are to remove use of the warnings module and to change the time measuring function to time.monotonic_ns() as the extra time resolution may be useful for a microcontroller based implementation of a PID controller. Accuracy loss (~500ns) starts to happen around 24 days of runtime, as estimated by executing this in the REPL on an M4 Express Board. If this is an issue for your application change it back to time.monotonic.
-
+```python
 >>> x = 2 ** 30 + 1; int(float(x * 1e-9) * 1e9) - x
 -513
-
+```
 A simple and easy to use PID controller in Python. If you want a PID controller without external dependencies that just works, this is for you! The PID was designed to be robust with help from [Brett Beauregards guide](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/).
 
 Usage is very simple:
