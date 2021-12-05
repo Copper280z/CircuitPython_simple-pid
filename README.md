@@ -34,12 +34,6 @@ while True:
 
 Complete API documentation can be found [here](https://simple-pid.readthedocs.io/en/latest/simple_pid.html#module-simple_pid.PID).
 
-## Installation
-To install, run:
-```
-pip install simple-pid
-```
-
 ## Usage
 The `PID` class implements `__call__()`, which means that to compute a new output value, you simply call the object like this:
 ```python
