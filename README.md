@@ -4,7 +4,9 @@
 [![License](https://img.shields.io/github/license/m-lundberg/simple-pid.svg)](https://github.com/m-lundberg/simple-pid/blob/master/LICENSE.md)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Copper280z comments - My intention is to provide a circuitpython compatible fork. I make no gurantee that this fork will track the original whatsoever.
+Copper280z comments - It appears the original simple-pid library now supports circuitpython/micropython via very similar changes to what I've made here.
+
+My intention is to provide a circuitpython compatible fork. I make no gurantee that this fork will track the original whatsoever.
 
 Relevant files are in the circuitpy folder.
 
